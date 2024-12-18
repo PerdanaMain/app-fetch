@@ -11,6 +11,8 @@ python-dotenv = "^1.0.1"
 psycopg2-binary = "^2.9.10"
 pytz = "^2024.2"
 schedule = "^1.2.2"
+asyncio = "^3.4.3"
+aiohttp = "^3.11.10"
 
 [tool.poetry.dev-dependencies]
 

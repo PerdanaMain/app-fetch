@@ -30,7 +30,6 @@ class Config:
                 password=os.getenv("DB_PASS"),
                 port=os.getenv("DB_PORT")
             )
-            self.logger.info("Database connection successful")
             return conn
         except Exception as e:
             self.logger.error(f"Error connecting to the database: {e}")
